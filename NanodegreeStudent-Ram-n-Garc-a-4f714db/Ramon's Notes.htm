@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<head>
+  <title>Ramon's Notes</title>
+  <!--Here are the notes I have taken so far on my programming class  at Udacity-->
+  <link rel="stylesheet" href="ramon notes.css"> </link>
+</head>
+<body>
+  <h1>Ramon Project</h1>
+  <div class="lesson">
+    <h2> Lesson 1: Introduction to programming</h2>
+    <div class="concept">
+      <div class="concept-title">
+      How the web is viewed
+      </div>
+      <div class="concept-description">
+        <p>
+          The introduction covers how computers communicate with Web pages that are hosted in <span class="italic">web servers </span> and how the <span class="italics">content between tags "<>"</span> is viewed as text, images, and links to web pages using HTML. 
+        </p>
+         <p>Computers only understand exact instructions, some Examples of what happens on the body of the htlm page are:<br> 
+	         HTML is <b>reasonably straightforward, b inside tags <> bolds text </b> <br> 
+	         <a href="www.w3c.org">HTML</a> the letter a inside the <> is to anchor, href followed by = "to get link" close <>. You can also get images like the one here by using the command img
+	         <img src="http://www.udacity.com/cs253x/hipmunk.png" alt="hipmunk!•	">
+            instructions can be inline or in block
+         </p>
+        </div>
+    </div>
+    <div class="concept">
+      <div class ="concept-title">
+        Creating a structured document with HTML
+      </div>
+      <div class="concept-description">
+        <p>HTML  and CSS are both languages HTML controls the structure of the web page
+        </p>
+        <p> CSS controls the style of the webpage (how it looks)<br>
+        DOM is the tree like structure of the page you can read more about tree structures at http://en.wikipedia.org/wiki/Tree_structure. <a href="http://en.wikipedia.org/wiki/Tree_structure"> tree structure </a> <br>
+        Web pages are composed of boxes and inside the boxes they are organized in how you want to see your web page (images, text, style, title)
+        </p>
+      </div>
+    </div>
+    <div class ="concept">
+      <div class="concept-title"
+        CSS
+      </div>
+      <div class="concept-description">
+        <p> CSS or Cascading Style Sheets is where you give live to the text content with color, size, height, etc. The most important concept is that of Cascading were the need to understand the abstract concept of inheritance is important
+        </p>
+        <p> We can learn more about what abstract thinking is at <a href="http://en.wikipedia.org/wiki/Cascading_Style_Sheets#Inheritance">inheritance section of the Wikipedia Article on CSS</a> 
+        </p> 
+        <p>To get more information about fonts we can read about it at the  <a href ="https://developer.mozilla.org/en-US/docs/Web/CSS/font">the mozilla developer site</a>
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="lesson">
+    <h2>Lesson 2: Default Style Sheets</h2>
+    <div class ="concept">
+      <div class="concept title">
+        HTML Display
+      <div class="concept-description"
+        <p> Browsers use <span class ="bold"default stylesheets</span> to determine how to display HTML elements.<br> Because the default stylesheets rules are different between browsers, a solution called CSS reset like normalize.css is used <a href="http://necolas.github.io/normalize.css/">Download the latest version here</a>
+         </p>
+      </div>
+    </div>
+    <div class ="concept">
+      <div clas = "concept-title"> Box Positioning
+      </div>
+      <div class="concept description">
+        <p> HTML elements are boxes and each box has 4 components. Because there are so many components to each box, two techniques exist to help deal with the sizing issues that could arise: <br>
+        1) Set sizes in terms of percent rather than pixels. <br>
+        2) Set the box-sizing attribute to border-box for every element. <br>
+        We also have to take into consideration that Divs are block elements (as opposed to <b> inline </b>), so by default they take up the entire width of a page. Adding the rule "display: flex; to the appropiate CSS will override this behavior and let divs appear next to each other. You can find more guidance on boxes at <a href="http://css-tricks.com/snippets/css/a-guide-to-flexbox/"> a guide to flexbox</a> 
+        </p>
+      </div>
+    </div>
+    <div class="concept">
+      <div class="concept-title"> 
+        HTML Validation
+      </div>
+      <div class="concept description">
+        <p> Validating web documents is an important step in ensuring their quality, saving time and money. However validation, is neither a full check nor is it strictly equivalent to checking for conformance to the specification. You can read more at: <br> <a href = "http://validator.w3.org/#validate_by_input">http://validator.w3.org/#validate_by_input</a> and <a href ="http://jigsaw.w3.org/css-validator/#validate_by_input">http://jigsaw.w3.org/css-validator/#validate_by_input</a> 
+        </p> 
+      </div>
+    </div>
+  </div>      
+</body>
+
